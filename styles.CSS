@@ -1,0 +1,67 @@
+body{
+font-family: "Oswald", sans-serif;
+height: 100vh;
+background-color: lightblue;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.tarjeta_contenedor{
+     position: relative;
+    border: 1px solid white;
+    width: 500px ;
+    border-radius: 20px;
+   
+}
+.foto_usuario img {
+    border-radius: 50%;
+    width: 80px ;
+    border:6px solid white ;
+
+}
+.Tarjeta {
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+}
+
+.foto_usuario {
+    position: absolute;
+    left: 90px;
+    top:20px ;
+}
+
+.tarjeta_contenido {
+ padding:60px 20px 10px 10px ;   
+}
+
+.ocupación {
+font-size: 11px;
+font-weight: 700;
+color: rgba(5, 5, 194, 0.842);
+text-align: right;
+}
+
+.tarjeta_contenido .nombre_completo {
+ margin: 0;
+ padding-top: 10px ;
+}
+
+.descripción {
+ margin: 0 ;
+ padding-top: 10px;
+}
+
+.redes_sociales nav {
+ width: 100%;
+ padding-top:12px ;
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.tarjeta_foto {
+  background-image: url(assets/pexels-kwnos-iv-250460536-35581360.jpg);
+  background-size: cover;
+  width: 140px;
+  height: 300px;
+  border-radius:20px 0 0 20px  ;
+}
